@@ -1,0 +1,41 @@
+.header  {
+    font-family: monospace;
+    background: papayawhip;
+  display: flex;
+  justify-content: center;
+}
+  
+  .logo {
+    font-size: 48px;s
+    font-weight: 900;
+    color: tomato;
+    background: white;
+    padding: 4px 32px;
+  margin: 10px 150px 10px 200px;
+border-radius: 10px;
+}
+  
+
+
+  ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none ;
+    display: flex;
+    justify-content: space-around;
+margin-top: 30px;
+  /* the best solution was just to put gap,but hey we live and we learn princy:eg gap:50px;  */
+}
+  ul li {
+    
+    margin-right:10px;
+
+  
+}
+  
+  a {
+    font-size: 22px;
+    background: white;
+    padding: 8px;
+    /* this removes the line under the links */
+    text-decoration: none;
+  }
